@@ -1,9 +1,7 @@
 import datetime
-from todoist_api_python.models import Task
 from configurations import *
 
-
-todoist = connect_todoist()
+todoist = TodoistAPI('15140b93826821f4c92819d23fb7cf8ed6a4a859')
 
 todays_date = str(datetime.date.today())
 
