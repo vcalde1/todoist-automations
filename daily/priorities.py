@@ -1,5 +1,5 @@
 import datetime
-from configurations import *
+from todoist_api_python.api import TodoistAPI
 
 todoist = TodoistAPI('15140b93826821f4c92819d23fb7cf8ed6a4a859')
 
